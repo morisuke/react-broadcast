@@ -19,10 +19,6 @@ class SingletonEvent extends Event.EventEmitter
         return this[ SINGLETON_PROP ];
 	}
 	
-	watch(event, callback) {
-		this.on(event, callback);
-	}
-
 	broadcast(event, callback) {
 		this.emit(event, callback);
 	}
