@@ -1,0 +1,19 @@
+{
+  "name": "react-broadcast",
+  "version": "0.0.1",
+  "description": "React Vue.js like event driver",
+  "main": "react-broadcast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "vue"
+  ],
+  "author": "morisuke (writers-high@outlook.com)",
+  "license": "MIT",
+  "dependencies": {
+    "events": "~1.0.2",
+    "react": "~0.13.3"
+  }
+}
